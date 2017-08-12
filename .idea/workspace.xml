@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32dc66b-08f7-4e91-8fa8-48394998a374" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/camille.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/data_cleaner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" afterPath="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/data_cleaner.py" afterPath="$PROJECT_DIR$/utils/data_cleaner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data_cleaner.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data_cleaner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="468">
+              <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_data_cleaner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_data_cleaner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+            <state relative-caret-position="270">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -47,6 +45,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+      <find>.?\d+\|</find>
+      <find>^</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,8 +61,8 @@
         <option value="$PROJECT_DIR$/utils/clean_data.py" />
         <option value="$PROJECT_DIR$/utils/test_cleanData.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_clean_data.py" />
-        <option value="$PROJECT_DIR$/utils/data_cleaner.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" />
+        <option value="$PROJECT_DIR$/utils/data_cleaner.py" />
       </list>
     </option>
   </component>
@@ -137,6 +142,65 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents">
+    <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_get_raw_corpus_from_path" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_cleaner.TestDataCleaner.test_get_raw_corpus_from_path&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests in test_data_cleaner.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_data_cleaner.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_get_raw_corpus_from_path" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_get_raw_corpus_from_path" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -150,6 +214,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_get_raw_corpus_from_path - 2017.08.12 at 12h 33m 00s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_get_raw_corpus_from_path" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 40m 25s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 40m 54s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 41m 12s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 41m 58s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 42m 26s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 43m 36s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 44m 59s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 45m 13s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_split_raw_corpus_into_documents - 2017.08.12 at 12h 45m 58s.xml">
+      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_split_raw_corpus_into_documents" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="118" y="30" width="1281" height="704" extended-state="0" />
     <editor active="true" />
@@ -157,7 +253,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -190,21 +286,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        <state relative-caret-position="270">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>

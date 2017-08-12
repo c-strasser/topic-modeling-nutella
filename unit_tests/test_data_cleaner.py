@@ -22,8 +22,14 @@ class TestDataCleaner(TestCase):
         print(raw_corpus)
         self.assertEquals(expected_number_lines, actual_number_lines)
 
-    def test_split_raw_corpus_into_documents(self, raw_corpus):
-        self.fail()
+    def test_split_raw_corpus_into_documents(self):
+        raw_corpus = self.cleaner.get_raw_corpus_from_path(self.corpus_path)
+        documents = self.cleaner.split_raw_corpus_into_documents(raw_corpus)
+        actual_number_documents = len(documents)
+        expected_number_documents = 2
+        print(documents[0])
+        print(documents[1])
+        self.assertEqual(expected_number_documents, actual_number_documents)
 
     def test_clean_documents(self):
         self.fail()
@@ -38,7 +44,7 @@ class TestDataCleaner(TestCase):
         self.fail()
 
     def test_remove_punctuation_in_list_words(self):
-        pass
+        self.fail()
 
     def test_remove_stop_words_in_list_words(self):
         self.fail()
