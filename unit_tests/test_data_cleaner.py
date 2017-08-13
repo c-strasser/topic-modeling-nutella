@@ -3,6 +3,7 @@ from utils.data_cleaner import DataCleaner
 import pandas as pd
 import os
 from nltk.corpus import stopwords
+import re
 
 class TestDataCleaner(TestCase):
     def __init__(self, method_name='runTest'):
@@ -41,13 +42,35 @@ class TestDataCleaner(TestCase):
         self.fail()
 
     def test_get_raw_textual_data_in_document(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        processed_tokens = self.cleaner.get_raw_textual_data_in_document(documents[1])
+        print(processed_tokens)
 
-    def test_remove_internet_related_elements_from_tokens(self):
-        self.fail()
+    def test_get_raw_textual_data_in_token(self):
+        token_1 = 'bonjour😋😋'
+        token_2 = '#fitgirl'
+        processed_token_1 = self.cleaner.get_raw_textual_data_in_token(token_1)
+        processed_token_2 = self.cleaner.get_raw_textual_data_in_token(token_2)
+        print(processed_token_1)
+        print(processed_token_2)
 
-    def test_replace_emojis_by_name_in_tokens(self):
-        self.fail()
+    def test_remove_all_internet_related_element_from_token(self):
+        token = '#fitgirl'
+        actual_processed_token = self.cleaner.remove_all_internet_related_element_from_token(token)
+        expected_processed_token = 'fitgirl'
+        self.assertSequenceEqual(expected_processed_token, actual_processed_token)
+
+    def test_remove_marker_from_token(self):
+        expression = re.compile('@.*')
+        token = 'ptn|@Lolas_DM'
+        actual_processed_token = self.cleaner.remove_marker_from_token(expression, token)
+        expected_processed_token = 'ptn|'
+        self.assertSequenceEqual(expected_processed_token, actual_processed_token)
+
+    def test_replace_emojis_by_name_in_token(self):
+        token = 'bonjour😋😋'
+        processed_token = self.cleaner.replace_emojis_by_name_in_token(token)
+        print(processed_token)
 
     def test_get_important_lemmas_in_textual_data(self):
         self.fail()

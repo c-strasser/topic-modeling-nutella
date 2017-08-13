@@ -1,11 +1,25 @@
 import re
 import treetaggerwrapper
+import unicodedata
+
 
 class DataCleaner:
     def __init__(self, language) -> None:
         super().__init__()
         self.language = language
         self.document_marker = re.compile('^.?\d+\|')
+        self.list_internet_related_markers
+        self.begin_unicode_index_emojis = ord("\U0001F300")
+        self.end_unicode_index_emojis = ord("\U0001FFFF")
+
+    @property
+    def list_internet_related_markers(self):
+        calling_user = re.compile('@.*')
+        hashtag_maker = re.compile('#')
+        url_marker = re.compile('http.*')
+        html_marker = re.compile('<.*>')
+        next_tag_marker = re.compile('\|')
+        return [calling_user, hashtag_maker, url_marker, html_marker, next_tag_marker]
 
     def get_clean_documents_from_corpus_path(self, corpus_path):
         raw_documents = self.get_raw_documents_from_corpus_path(corpus_path)
@@ -46,18 +60,31 @@ class DataCleaner:
         important_lemmas = self.get_important_lemmas_in_textual_data(raw_textual_data)
         return important_lemmas
 
-
     def get_raw_textual_data_in_document(self, document):
         tokens = document.split()
-        tokens = self.remove_internet_related_elements_from_tokens(tokens)
-        tokens = self.replace_emojis_by_name_in_tokens(tokens)
-        return tokens
+        processed_tokens = [self.get_raw_textual_data_in_token(token) for token in tokens]
+        return processed_tokens
 
-    def remove_internet_related_elements_from_tokens(self, tokens):
-        pass
+    def get_raw_textual_data_in_token(self, token):
+        processed_token = self.remove_all_internet_related_element_from_token(token)
+        processed_token = self.replace_emojis_by_name_in_token(processed_token)
+        return processed_token
 
-    def replace_emojis_by_name_in_tokens(self, tokens):
-        pass
+    def remove_all_internet_related_element_from_token(self, token):
+        for expression in self.list_internet_related_markers:
+            token = self.remove_marker_from_token(expression, token)
+        return token
+
+    @staticmethod
+    def remove_marker_from_token(internet_marker, token):
+        processed_token = re.sub(internet_marker, '', token)
+        return processed_token
+
+    def replace_emojis_by_name_in_token(self, token):
+        for unicode_index_of_character in range(self.begin_unicode_index_emojis, self.end_unicode_index_emojis):
+            character_name = ' ' + unicodedata.name(chr(unicode_index_of_character), "NOTHING").lower() + ' '
+            token = token.replace(chr(unicode_index_of_character), character_name)
+        return token
 
     def get_important_lemmas_in_textual_data(self, textual_data):
         tree_tags = self.get_tree_tags_of_textual_data(textual_data)
