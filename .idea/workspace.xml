@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32dc66b-08f7-4e91-8fa8-48394998a374" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/topic_modeler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/camille.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/camille.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" afterPath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/topic_modeler.py" afterPath="$PROJECT_DIR$/utils/topic_modeler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,56 +25,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic_modeler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topic_modeler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/topic_modeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="972">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_topic_modeler.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_topic_modeler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_corpus_numerical_representation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="460">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_data_cleaner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raw_data.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unit_tests/example_data/raw_data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-261">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -94,6 +64,8 @@
       <find>.?\d+\|</find>
       <find>^</find>
       <find>#</find>
+      <find>.\+.</find>
+      <find>,.</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,8 +161,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_corpus_numerical_representation.py">
-    <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus">
+    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -202,10 +174,10 @@
       <module name="topic-modeling-nutella" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_corpus_numerical_representation.TestCorpusNumericalRepresentation&quot;" />
+      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -217,10 +189,10 @@
       <module name="topic-modeling-nutella" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus&quot;" />
+      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_document_term_matrix_from_text_corpus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -232,10 +204,10 @@
       <module name="topic-modeling-nutella" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_document_term_matrix_from_text_corpus&quot;" />
+      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_reformat_results&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_get_clean_documents_from_corpus_path" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -247,10 +219,10 @@
       <module name="topic-modeling-nutella" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_data_cleaner.TestDataCleaner.test_get_clean_documents_from_corpus_path&quot;" />
+      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests in test_corpus_numerical_representation.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in test_topic_modeler.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -262,23 +234,23 @@
       <module name="topic-modeling-nutella" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_topic_modeler.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_get_clean_documents_from_corpus_path" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_document_term_matrix_from_text_corpus" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_corpus_numerical_representation.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_corpus_numerical_representation.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_document_term_matrix_from_text_corpus" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_data_cleaner.TestDataCleaner.test_get_clean_documents_from_corpus_path" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic" />
       </list>
     </recent_temporary>
   </component>
@@ -299,35 +271,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_test_corpus_numerical_representation_TestCorpusNumericalRepresentation - 2017.08.13 at 11h 20m 24s.xml">
-      <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 18m 54s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_corpus_numerical_representation_TestCorpusNumericalRepresentation - 2017.08.13 at 11h 21m 33s.xml">
-      <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 21m 30s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_corpus_numerical_representation_TestCorpusNumericalRepresentation_test_create_dictionary_from_text_corpus - 2017.08.13 at 11h 19m 24s.xml">
-      <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 21m 38s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_corpus_numerical_representation_TestCorpusNumericalRepresentation_test_create_dictionary_from_text_corpus - 2017.08.13 at 11h 24m 09s.xml">
-      <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 06m 57s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_corpus_numerical_representation_TestCorpusNumericalRepresentation_test_create_dictionary_from_text_corpus - 2017.08.13 at 11h 27m 34s.xml">
-      <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_dictionary_from_text_corpus" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 08m 36s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_corpus_numerical_representation_TestCorpusNumericalRepresentation_test_create_document_term_matrix_from_text_corpus - 2017.08.13 at 11h 31m 15s.xml">
-      <configuration name="Nosetests for test_corpus_numerical_representation.TestCorpusNumericalRepresentation.test_create_document_term_matrix_from_text_corpus" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 10m 40s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_data_cleaner_TestDataCleaner_test_get_clean_documents_from_corpus_path - 2017.08.13 at 11h 22m 22s.xml">
-      <configuration name="Nosetests for test_data_cleaner.TestDataCleaner.test_get_clean_documents_from_corpus_path" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 11m 25s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_corpus_numerical_representation_py - 2017.08.13 at 11h 33m 15s.xml">
-      <configuration name="Nosetests in test_corpus_numerical_representation.py" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 11m 58s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_corpus_numerical_representation_py - 2017.08.13 at 11h 38m 27s.xml">
-      <configuration name="Nosetests in test_corpus_numerical_representation.py" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 12m 30s.xml">
+      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_corpus_numerical_representation_py - 2017.08.13 at 11h 44m 18s.xml">
-      <configuration name="Nosetests in test_corpus_numerical_representation.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_topic_modeler_py - 2017.08.13 at 13h 13m 40s.xml">
+      <configuration name="Nosetests in test_topic_modeler.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -496,27 +468,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="144">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="51" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
+    <entry file="file://$PROJECT_DIR$/utils/topic_modeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="972">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/topic_modeler.py">
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="false" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="460">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

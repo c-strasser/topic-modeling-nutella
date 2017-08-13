@@ -1,30 +1,50 @@
 from unittest import TestCase
 from gensim.models.ldamodel import LdaModel
+from utils.corpus_numerical_representation import CorpusNumericalRepresentation
 from utils.topic_modeler import TopicModeler
 
+
 class TestTopicModeler(TestCase):
+
     def __init__(self, method_name='runTest'):
         super().__init__(method_name)
-        self.mapping_word2id = {'nutella': 0, 'bon': 1, 'dessert': 2, 'gras': 3,
-                                'fitgirl': 4, 'poisson': 5, 'recette': 6}
-        self.document_terms_matrix = [[(0, 1), (1, 1), (2, 2)], [(2, 1), (3, 1), (4, 1)], [(5, 1), (6, 1)]]
+        self.numerical_corpus = self.build_example_corpus()
         self.number_topics = 2
-        self.topic_modeler = TopicModeler((self.mapping_word2id, self.document_terms_matrix), self.number_topics)
+        self.topic_modeler = TopicModeler(self.numerical_corpus, self.number_topics)
 
     def test_train(self):
-        model = self.topic_modeler.train(50)
-        self.assertIsInstance(model, LdaModel)
+        self.topic_modeler.train(5)
+        self.assertIsInstance(self.topic_modeler.model, LdaModel)
 
     def test_get_most_important_topics_and_keywords(self):
-        self.fail()
+        self.topic_modeler.train(5)
+        results = self.topic_modeler.get_most_important_topics_and_keywords(2)
+        print(results)
 
     def test_reformat_results(self):
-        self.fail()
+        results = [(0, '0.168*health + 0.083*sugar + 0.072*bad'), (1, '0.061*consume + 0.050*drive + 0.050*sister')]
+        reformatted_results = self.topic_modeler.reformat_results(results)
+        print(reformatted_results)
 
     def test_reformat_results_for_topic(self):
-        self.fail()
+        results_topic = '0.168*health + 0.083*sugar + 0.072*bad'
+        reformatted_results = self.topic_modeler.reformat_topics_results(results_topic)
+        print(reformatted_results)
+
+    def test_reformat_results_for_keyword(self):
+        results_keyword = '0.168*health'
+        reformatted_results = self.topic_modeler.reformat_keyword_results(results_keyword)
+        print(reformatted_results)
 
     def test_evaluate_on_validation_corpus(self):
-        self.fail()
+        self.topic_modeler.train(5)
+        perplexity = self.topic_modeler.evaluate_on_validation_corpus(self.numerical_corpus[1])
+        print(perplexity)
 
-
+    @staticmethod
+    def build_example_corpus():
+        text_corpus = [['nutella', 'bon', 'dessert', 'dessert'],
+                       ['dessert', 'gras', 'fitgirl'],
+                       ['poisson', 'recette']]
+        numerical_corpus = CorpusNumericalRepresentation.build_from_text_corpus(text_corpus)
+        return numerical_corpus
