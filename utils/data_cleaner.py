@@ -9,6 +9,11 @@ class DataCleaner:
         self.language = language
         self.document_marker = re.compile('^.?\d+\|')
         self.list_internet_related_markers
+        self.non_important_part_of_speech_tags = ['ADV', 'DET:ART','DET:POS', 'INT', 'KON', 'NUM', 'PRO', 'PRO:DEM', 'PRO:IND',
+                                                  'PRO:PER', 'PRO:POS', 'PRO:POS', 'PRO:REL', 'PRP', 'PRP:det', 'PUN',
+                                                  'PUN:cit', 'SENT']
+
+        self.stop_lemmas = ['être', 'avoir', 'suivre|être']
         self.begin_unicode_index_emojis = ord("\U0001F300")
         self.end_unicode_index_emojis = ord("\U0001FFFF")
 
@@ -77,7 +82,7 @@ class DataCleaner:
 
     @staticmethod
     def remove_marker_from_token(internet_marker, token):
-        processed_token = re.sub(internet_marker, '', token)
+        processed_token = re.sub(internet_marker, ' ', token)
         return processed_token
 
     def replace_emojis_by_name_in_token(self, token):
@@ -93,11 +98,19 @@ class DataCleaner:
         return important_lemmas
 
     def get_tree_tags_of_textual_data(self, textual_data):
-        pass
-
+        tree_tagger = treetaggerwrapper.TreeTagger(TAGLANG=self.language[:2])
+        tags = tree_tagger.tag_text(textual_data)
+        return treetaggerwrapper.make_tags(tags)
 
     def remove_non_important_part_of_speech_in_tags(self, tags):
-        pass
+        important_tags = []
+        for tag in tags:
+            if tag[1] not in self.non_important_part_of_speech_tags:
+                if tag[2] not in self.stop_lemmas:
+                    important_tags.append(tag)
+        return important_tags
 
     def get_lemmas_in_tags(self, tags):
-        pass
+        lemmas = [tag[2].lower() for tag in tags]
+        return lemmas
+

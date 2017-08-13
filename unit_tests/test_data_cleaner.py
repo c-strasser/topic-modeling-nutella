@@ -73,13 +73,28 @@ class TestDataCleaner(TestCase):
         print(processed_token)
 
     def test_get_important_lemmas_in_textual_data(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        processed_tokens = self.cleaner.get_raw_textual_data_in_document(documents[1])
+        important_lemmas = self.cleaner.get_important_lemmas_in_textual_data(processed_tokens)
+        print(important_lemmas)
 
     def test_get_tree_tags_of_textual_data(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        processed_tokens = self.cleaner.get_raw_textual_data_in_document(documents[1])
+        tree_tags = self.cleaner.get_tree_tags_of_textual_data(processed_tokens)
+        print(tree_tags)
 
     def test_remove_non_important_part_of_speech_in_tags(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        processed_tokens = self.cleaner.get_raw_textual_data_in_document(documents[1])
+        tree_tags = self.cleaner.get_tree_tags_of_textual_data(processed_tokens)
+        processed_tags = self.cleaner.remove_non_important_part_of_speech_in_tags(tree_tags)
+        print(processed_tags)
 
     def test_get_lemmas_in_tags(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        processed_tokens = self.cleaner.get_raw_textual_data_in_document(documents[1])
+        tree_tags = self.cleaner.get_tree_tags_of_textual_data(processed_tokens)
+        lemmas = self.cleaner.get_lemmas_in_tags(tree_tags)
+        print(lemmas)
+
