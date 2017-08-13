@@ -1,9 +1,10 @@
 from unittest import TestCase
 from gensim import corpora
-from utils.corpus_numerical_representation import CorpusNumericalRepresentation as NumericalCorpus
+from utils.numerical_corpus import NumericalCorpus as NumericalCorpus
 
 
-class TestCorpusNumericalRepresentation(TestCase):
+class TestNumericalCorpus(TestCase):
+
     def __init__(self, method_name='runTest'):
         super().__init__(method_name)
         self.text_corpus = [['nutella', 'bon', 'dessert', 'dessert'],

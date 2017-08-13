@@ -1,6 +1,6 @@
 from unittest import TestCase
 from gensim.models.ldamodel import LdaModel
-from utils.corpus_numerical_representation import CorpusNumericalRepresentation
+from utils.numerical_corpus import NumericalCorpus
 from utils.topic_modeler import TopicModeler
 
 
@@ -46,5 +46,5 @@ class TestTopicModeler(TestCase):
         text_corpus = [['nutella', 'bon', 'dessert', 'dessert'],
                        ['dessert', 'gras', 'fitgirl'],
                        ['poisson', 'recette']]
-        numerical_corpus = CorpusNumericalRepresentation.build_from_text_corpus(text_corpus)
+        numerical_corpus = NumericalCorpus.build_from_text_corpus(text_corpus)
         return numerical_corpus

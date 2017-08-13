@@ -19,12 +19,12 @@ class DataCleaner:
 
     @property
     def list_internet_related_markers(self):
-        calling_user = re.compile('@.*')
-        hashtag_maker = re.compile('#')
+        calling_user_marker = re.compile('@.*')
+        hashtag_marker = re.compile('#')
         url_marker = re.compile('http.*')
         html_marker = re.compile('<.*>')
         next_tag_marker = re.compile('\|')
-        return [calling_user, hashtag_maker, url_marker, html_marker, next_tag_marker]
+        return [calling_user_marker, hashtag_marker, url_marker, html_marker, next_tag_marker]
 
     def get_clean_documents_from_corpus_path(self, corpus_path):
         raw_documents = self.get_raw_documents_from_corpus_path(corpus_path)
@@ -105,9 +105,10 @@ class DataCleaner:
     def remove_non_important_part_of_speech_in_tags(self, tags):
         important_tags = []
         for tag in tags:
-            if tag[1] not in self.non_important_part_of_speech_tags:
-                if tag[2] not in self.stop_lemmas:
-                    important_tags.append(tag)
+            if isinstance(tag, treetaggerwrapper.Tag):
+                if tag[1] not in self.non_important_part_of_speech_tags:
+                    if tag[2] not in self.stop_lemmas:
+                        important_tags.append(tag)
         return important_tags
 
     @staticmethod

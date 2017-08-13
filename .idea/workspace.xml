@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32dc66b-08f7-4e91-8fa8-48394998a374" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/camille.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/camille.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py" afterPath="$PROJECT_DIR$/unit_tests/test_numerical_corpus.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/utils/corpus_numerical_representation.py" afterPath="$PROJECT_DIR$/utils/numerical_corpus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" afterPath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/topic_modeler.py" afterPath="$PROJECT_DIR$/utils/topic_modeler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/data_cleaner.py" afterPath="$PROJECT_DIR$/utils/data_cleaner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="corpus_numerical_representation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/corpus_numerical_representation.py">
+      <file leaf-file-name="data_cleaner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topic_modeler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/topic_modeler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -37,11 +29,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_topic_modeler.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="numerical_corpus.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/numerical_corpus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_numerical_corpus.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit_tests/test_numerical_corpus.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_topic_modeler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="900">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data_cleaner.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="49" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -78,16 +104,17 @@
         <option value="$PROJECT_DIR$/utils/test_cleanData.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_clean_data.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
-        <option value="$PROJECT_DIR$/utils/data_cleaner.py" />
         <option value="$PROJECT_DIR$/utils/document-term-matrix.py" />
         <option value="$PROJECT_DIR$/utils/test_corpus_numerical_representation.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" />
-        <option value="$PROJECT_DIR$/utils/corpus_numerical_representation.py" />
-        <option value="$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py" />
         <option value="$PROJECT_DIR$/utils/tipic_modeller.py" />
         <option value="$PROJECT_DIR$/utils/test_topicModeler.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" />
         <option value="$PROJECT_DIR$/utils/topic_modeler.py" />
+        <option value="$PROJECT_DIR$/utils/corpus_numerical_representation.py" />
+        <option value="$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py" />
+        <option value="$PROJECT_DIR$/unit_tests/test_numerical_corpus.py" />
+        <option value="$PROJECT_DIR$/utils/data_cleaner.py" />
       </list>
     </option>
   </component>
@@ -161,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus">
+  <component name="RunManager" selected="Python tests.Nosetests in test_data_cleaner.py">
     <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,7 +234,7 @@
       <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_reformat_results&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in test_data_cleaner.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -219,8 +246,8 @@
       <module name="topic-modeling-nutella" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_data_cleaner.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Nosetests in test_topic_modeler.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,18 +266,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results_for_topic" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
       </list>
     </recent_temporary>
   </component>
@@ -280,12 +307,6 @@
     <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 21m 38s.xml">
       <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 06m 57s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 08m 36s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 10m 40s.xml">
       <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
     </history-entry>
@@ -297,6 +318,12 @@
     </history-entry>
     <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 12m 30s.xml">
       <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_data_cleaner_py - 2017.08.13 at 13h 52m 27s.xml">
+      <configuration name="Nosetests in test_data_cleaner.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_data_cleaner_py - 2017.08.13 at 14h 02m 55s.xml">
+      <configuration name="Nosetests in test_data_cleaner.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_test_topic_modeler_py - 2017.08.13 at 13h 13m 40s.xml">
       <configuration name="Nosetests in test_topic_modeler.py" configurationId="tests" />
@@ -438,44 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="69" column="90" lean-forward="true" selection-start-line="69" selection-start-column="90" selection-end-line="69" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/corpus_numerical_representation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="10" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/topic_modeler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
@@ -488,10 +477,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="900">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_numerical_corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/numerical_corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
