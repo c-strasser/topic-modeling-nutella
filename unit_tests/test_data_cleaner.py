@@ -1,20 +1,20 @@
 from unittest import TestCase
 from utils.data_cleaner import DataCleaner
-import pandas as pd
 import os
-from nltk.corpus import stopwords
 import re
 
+
 class TestDataCleaner(TestCase):
+
     def __init__(self, method_name='runTest'):
         super().__init__(method_name)
         self.cleaner = DataCleaner('french')
         current_directory = os.path.dirname(os.path.realpath(__file__))
         self.corpus_path = os.path.join(current_directory, 'example_data/raw_data.csv')
 
-
     def test_get_clean_documents_from_corpus_path(self):
-        self.fail()
+        clean_documents = self.cleaner.get_clean_documents_from_corpus_path(self.corpus_path)
+        print(clean_documents)
 
     def test_get_raw_documents_from_corpus_path(self):
         documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
@@ -36,10 +36,14 @@ class TestDataCleaner(TestCase):
         self.assertEqual(expected_number_documents, actual_number_documents)
 
     def test_clean_documents(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        clean_documents = self.cleaner.clean_documents(documents)
+        print(clean_documents)
 
     def test_clean_a_document(self):
-        self.fail()
+        documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
+        clean_document = self.cleaner.clean_a_document(documents[1])
+        print(clean_document)
 
     def test_get_raw_textual_data_in_document(self):
         documents = self.cleaner.get_raw_documents_from_corpus_path(self.corpus_path)
@@ -57,14 +61,14 @@ class TestDataCleaner(TestCase):
     def test_remove_all_internet_related_element_from_token(self):
         token = '#fitgirl'
         actual_processed_token = self.cleaner.remove_all_internet_related_element_from_token(token)
-        expected_processed_token = 'fitgirl'
+        expected_processed_token = ' fitgirl'
         self.assertSequenceEqual(expected_processed_token, actual_processed_token)
 
     def test_remove_marker_from_token(self):
         expression = re.compile('@.*')
         token = 'ptn|@Lolas_DM'
         actual_processed_token = self.cleaner.remove_marker_from_token(expression, token)
-        expected_processed_token = 'ptn|'
+        expected_processed_token = 'ptn| '
         self.assertSequenceEqual(expected_processed_token, actual_processed_token)
 
     def test_replace_emojis_by_name_in_token(self):
@@ -97,4 +101,3 @@ class TestDataCleaner(TestCase):
         tree_tags = self.cleaner.get_tree_tags_of_textual_data(processed_tokens)
         lemmas = self.cleaner.get_lemmas_in_tags(tree_tags)
         print(lemmas)
-

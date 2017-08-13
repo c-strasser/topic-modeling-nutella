@@ -1,18 +1,18 @@
 import re
-import treetaggerwrapper
 import unicodedata
+import treetaggerwrapper
 
 
 class DataCleaner:
+
     def __init__(self, language) -> None:
         super().__init__()
         self.language = language
         self.document_marker = re.compile('^.?\d+\|')
         self.list_internet_related_markers
-        self.non_important_part_of_speech_tags = ['ADV', 'DET:ART','DET:POS', 'INT', 'KON', 'NUM', 'PRO', 'PRO:DEM', 'PRO:IND',
-                                                  'PRO:PER', 'PRO:POS', 'PRO:POS', 'PRO:REL', 'PRP', 'PRP:det', 'PUN',
-                                                  'PUN:cit', 'SENT']
-
+        self.non_important_part_of_speech_tags = ['ADV', 'DET:ART', 'DET:POS', 'INT', 'KON', 'NUM', 'PRO', 'PRO:DEM',
+                                                  'PRO:IND', 'PRO:PER', 'PRO:POS', 'PRO:POS', 'PRO:REL', 'PRP',
+                                                  'PRP:det', 'PUN', 'PUN:cit', 'SENT', 'SYM']
         self.stop_lemmas = ['être', 'avoir', 'suivre|être']
         self.begin_unicode_index_emojis = ord("\U0001F300")
         self.end_unicode_index_emojis = ord("\U0001FFFF")
@@ -110,7 +110,7 @@ class DataCleaner:
                     important_tags.append(tag)
         return important_tags
 
-    def get_lemmas_in_tags(self, tags):
-        lemmas = [tag[2].lower() for tag in tags]
+    @staticmethod
+    def get_lemmas_in_tags(tags):
+        lemmas = [re.split('\|', tag[2].lower())[0] for tag in tags]
         return lemmas
-
