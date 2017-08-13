@@ -1,4 +1,5 @@
 import re
+import treetaggerwrapper
 
 class DataCleaner:
     def __init__(self, language) -> None:
@@ -6,14 +7,23 @@ class DataCleaner:
         self.language = language
         self.document_marker = re.compile('^.?\d+\|')
 
-    def get_clean_corpus_from_path(self, corpus_path):
-        pass
+    def get_clean_documents_from_corpus_path(self, corpus_path):
+        raw_documents = self.get_raw_documents_from_corpus_path(corpus_path)
+        clean_documents = self.clean_documents(raw_documents)
+        return clean_documents
 
-    def get_raw_corpus_from_path(self, corpus_path):
+    def get_raw_documents_from_corpus_path(self, corpus_path):
+        corpus = self.get_raw_corpus_from_path(corpus_path)
+        raw_documents = self.split_raw_corpus_into_documents(corpus)
+        return raw_documents
+
+    @staticmethod
+    def get_raw_corpus_from_path(corpus_path):
         with open(corpus_path, encoding='utf-8') as file:
             corpus = file.readlines()
         return corpus
 
+    @staticmethod
     def split_raw_corpus_into_documents(self, raw_corpus):
         documents = []
         current_document = raw_corpus[0]
@@ -28,37 +38,40 @@ class DataCleaner:
         documents.append(current_document)
         return documents
 
-
-
     def clean_documents(self, documents):
-        pass
-
+        clean_documents = [self.clean_a_document(document) for document in documents]
+        return clean_documents
 
     def clean_a_document(self, document):
+        raw_textual_data = self.get_raw_textual_data_in_document(document)
+        important_lemmas = self.get_important_lemmas_in_textual_data(raw_textual_data)
+        return important_lemmas
+
+
+    def get_raw_textual_data_in_document(self, document):
+        tokens = document.split()
+        tokens = self.remove_internet_related_elements_from_tokens(tokens)
+        tokens = self.replace_emojis_by_name_in_tokens(tokens)
+        return tokens
+
+    def remove_internet_related_elements_from_tokens(self, tokens):
         pass
 
-    def escape_html_characters_in_words(self, words):
+    def replace_emojis_by_name_in_tokens(self, tokens):
         pass
 
-    def decode_words(self, words):
-        pass
+    def get_important_lemmas_in_textual_data(self, textual_data):
+        tree_tags = self.get_tree_tags_of_textual_data(textual_data)
+        important_tree_tags = self.remove_non_important_part_of_speech_in_tags(tree_tags)
+        important_lemmas = self.get_lemmas_in_tags(important_tree_tags)
+        return important_lemmas
 
-    def remove_punctuation_in_list_words(self, words):
-        pass
-
-    def remove_stop_words_in_list_words(self, words):
-        pass
-
-    def replace_emojis_by_description_in_words(self, words):
-        pass
-
-    def lemmatize_words(self, list_words):
-        pass
-
-    def remove_url_in_words(self, words):
-        pass
-
-    def concatenate_remaining_words(self, words):
+    def get_tree_tags_of_textual_data(self, textual_data):
         pass
 
 
+    def remove_non_important_part_of_speech_in_tags(self, tags):
+        pass
+
+    def get_lemmas_in_tags(self, tags):
+        pass
