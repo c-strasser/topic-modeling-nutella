@@ -20,7 +20,6 @@ class TestDataCleaner(TestCase):
         raw_corpus = self.cleaner.get_raw_corpus_from_path(self.corpus_path)
         actual_number_lines = len(raw_corpus)
         expected_number_lines = 44
-        print(raw_corpus)
         self.assertEquals(expected_number_lines, actual_number_lines)
 
     def test_split_raw_corpus_into_documents(self):
@@ -28,8 +27,6 @@ class TestDataCleaner(TestCase):
         documents = self.cleaner.split_raw_corpus_into_documents(raw_corpus)
         actual_number_documents = len(documents)
         expected_number_documents = 2
-        print(documents[0])
-        print(documents[1])
         self.assertEqual(expected_number_documents, actual_number_documents)
 
     def test_clean_documents(self):

@@ -23,7 +23,6 @@ class DataCleaner:
             corpus = file.readlines()
         return corpus
 
-    @staticmethod
     def split_raw_corpus_into_documents(self, raw_corpus):
         documents = []
         current_document = raw_corpus[0]
