@@ -11,10 +11,10 @@ class TestCorpusNumericalRepresentation(TestCase):
                             ['poisson', 'recette']]
 
     def test_create_document_term_matrix_from_text_corpus(self):
-        document_term_matrix = NumericalCorpus.create_document_term_matrix_from_text_corpus(self.text_corpus)
+        _, document_term_matrix = NumericalCorpus.build_from_text_corpus(self.text_corpus)
         print(document_term_matrix)
         self.assertIsInstance(document_term_matrix, list)
 
     def test_create_dictionary_from_text_corpus(self):
-        dictionary = NumericalCorpus.create_dictionary_from_text_corpus(self.text_corpus)
+        dictionary = NumericalCorpus.create_mapping_words_to_id_from_text_corpus(self.text_corpus)
         self.assertIsInstance(dictionary, corpora.Dictionary)
