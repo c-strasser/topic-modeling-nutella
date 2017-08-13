@@ -1,7 +1,7 @@
 from unittest import TestCase
-from utils.data_cleaner import DataCleaner
 import os
 import re
+from utils.data_cleaner import DataCleaner
 
 
 class TestDataCleaner(TestCase):
