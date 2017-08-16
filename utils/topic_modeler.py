@@ -23,7 +23,7 @@ class TopicModeler:
     def display_results(self):
         mapping_word2id, document_terms_matrix = self.numerical_corpus
         data_to_display = pyLDAvis.gensim.prepare(self.model, document_terms_matrix, mapping_word2id)
-        pyLDAvis.display(data_to_display)
+        return pyLDAvis.display(data_to_display)
 
     def evaluate_on_validation_corpus(self, validation_corpus):
         perplexity = self.model.log_perplexity(validation_corpus)

@@ -23,7 +23,7 @@ class TestTopicModeler(TestCase):
 
     def test_display_results(self):
         self.topic_modeler.train(5)
-        self.topic_modeler.display_results()
+        print(self.topic_modeler.display_results())
 
     def test_evaluate_on_validation_corpus(self):
         self.topic_modeler.train(5)
