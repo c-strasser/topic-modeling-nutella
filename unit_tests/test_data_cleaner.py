@@ -8,9 +8,9 @@ class TestDataCleaner(TestCase):
 
     def __init__(self, method_name='runTest'):
         super().__init__(method_name)
-        self.cleaner = DataCleaner('french')
         current_directory = os.path.dirname(os.path.realpath(__file__))
         self.corpus_path = os.path.join(current_directory, 'example_data/raw_data.csv')
+        self.cleaner = DataCleaner('french', '../tree_tagger')
 
     def test_get_clean_documents_from_corpus_path(self):
         clean_documents = self.cleaner.get_clean_documents_from_corpus_path(self.corpus_path)

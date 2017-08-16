@@ -18,4 +18,5 @@ class TestNumericalCorpus(TestCase):
 
     def test_create_dictionary_from_text_corpus(self):
         dictionary = NumericalCorpus.create_mapping_words_to_id_from_text_corpus(self.text_corpus)
+        print(dictionary.token2id)
         self.assertIsInstance(dictionary, corpora.Dictionary)

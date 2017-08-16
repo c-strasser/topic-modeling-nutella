@@ -5,27 +5,23 @@ import treetaggerwrapper
 
 class DataCleaner:
 
-    def __init__(self, language) -> None:
+    def __init__(self, language, tree_tagger_directory) -> None:
         super().__init__()
         self.language = language
+        self.tree_tagger_directory = tree_tagger_directory
+
         self.document_marker = re.compile('^.?\d+\|')
-        self.list_internet_related_markers
+        self.internet_related_markers = {'calling_user_marker': re.compile('@.*'),
+                                         'hashtag_marker': re.compile('#'),
+                                         'url_marker': re.compile('http.*'),
+                                         'html_marker': re.compile('<.*>'),
+                                         'next_tag_marker': re.compile('\|')}
         self.non_important_part_of_speech_tags = ['ADV', 'DET:ART', 'DET:POS', 'INT', 'KON', 'NUM', 'PRO', 'PRO:DEM',
                                                   'PRO:IND', 'PRO:PER', 'PRO:POS', 'PRO:POS', 'PRO:REL', 'PRP',
                                                   'PRP:det', 'PUN', 'PUN:cit', 'SENT', 'SYM']
-        self.stop_lemmas = ['être', 'avoir', 'suivre|être']
+        self.stop_lemmas = ['être', 'avoir', 'suivre|être', 'faire', 'vouloir', 'pouvoir', 'devoir']
         self.begin_unicode_index_emojis = ord("\U0001F300")
         self.end_unicode_index_emojis = ord("\U0001FFFF")
-        self.tree_tagger_directory = '/home/thales/Documents/camille/publicis/tree_tagger'
-
-    @property
-    def list_internet_related_markers(self):
-        calling_user_marker = re.compile('@.*')
-        hashtag_marker = re.compile('#')
-        url_marker = re.compile('http.*')
-        html_marker = re.compile('<.*>')
-        next_tag_marker = re.compile('\|')
-        return [calling_user_marker, hashtag_marker, url_marker, html_marker, next_tag_marker]
 
     def get_clean_documents_from_corpus_path(self, corpus_path):
         raw_documents = self.get_raw_documents_from_corpus_path(corpus_path)
@@ -77,7 +73,7 @@ class DataCleaner:
         return processed_token
 
     def remove_all_internet_related_element_from_token(self, token):
-        for expression in self.list_internet_related_markers:
+        for expression in self.internet_related_markers.values():
             token = self.remove_marker_from_token(expression, token)
         return token
 

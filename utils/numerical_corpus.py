@@ -14,6 +14,4 @@ class NumericalCorpus:
     @staticmethod
     def create_mapping_words_to_id_from_text_corpus(text_corpus):
         mapping_word2id = corpora.Dictionary(text_corpus)
-        print('Indices of words in corpus are: \n')
-        print(mapping_word2id.token2id)
         return mapping_word2id

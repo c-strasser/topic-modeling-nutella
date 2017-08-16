@@ -18,8 +18,8 @@ class TopicModeler:
 
     def get_most_important_topics_and_keywords(self, number_keywords):
         unformatted_results = self.model.print_topics(num_topics=self.number_topics, num_words=number_keywords)
-        formatted_results = TopicModeler.reformat_results(unformatted_results)
-        return formatted_results
+        #formatted_results = TopicModeler.reformat_results(unformatted_results)
+        return unformatted_results
 
     @staticmethod
     def reformat_results(results):
