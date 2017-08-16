@@ -21,20 +21,9 @@ class TestTopicModeler(TestCase):
         results = self.topic_modeler.get_most_important_topics_and_keywords(2)
         print(results)
 
-    def test_reformat_results(self):
-        results = [(0, '0.168*health + 0.083*sugar + 0.072*bad'), (1, '0.061*consume + 0.050*drive + 0.050*sister')]
-        reformatted_results = self.topic_modeler.reformat_results(results)
-        print(reformatted_results)
-
-    def test_reformat_results_for_topic(self):
-        results_topic = '0.168*health + 0.083*sugar + 0.072*bad'
-        reformatted_results = self.topic_modeler.reformat_topics_results(results_topic)
-        print(reformatted_results)
-
-    def test_reformat_results_for_keyword(self):
-        results_keyword = '0.168*health'
-        reformatted_results = self.topic_modeler.reformat_keyword_results(results_keyword)
-        print(reformatted_results)
+    def test_display_results(self):
+        self.topic_modeler.train(5)
+        self.topic_modeler.display_results()
 
     def test_evaluate_on_validation_corpus(self):
         self.topic_modeler.train(5)
