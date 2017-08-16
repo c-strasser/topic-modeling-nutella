@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32dc66b-08f7-4e91-8fa8-48394998a374" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py" afterPath="$PROJECT_DIR$/unit_tests/test_numerical_corpus.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/utils/corpus_numerical_representation.py" afterPath="$PROJECT_DIR$/utils/numerical_corpus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/topic-modeling-nutella.iml" afterPath="$PROJECT_DIR$/.idea/topic-modeling-nutella.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" afterPath="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/analysis-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/analysis-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis.ipynb" afterPath="$PROJECT_DIR$/analysis.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/data_cleaner.py" afterPath="$PROJECT_DIR$/utils/data_cleaner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +16,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="data_cleaner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="285">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,7 +34,7 @@
       <file leaf-file-name="numerical_corpus.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/numerical_corpus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="300">
               <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
@@ -42,8 +44,8 @@
       <file leaf-file-name="test_numerical_corpus.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests/test_numerical_corpus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -54,7 +56,7 @@
       <file leaf-file-name="test_topic_modeler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
+            <state relative-caret-position="885">
               <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -66,8 +68,8 @@
       <file leaf-file-name="test_data_cleaner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="580">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -92,6 +94,7 @@
       <find>#</find>
       <find>.\+.</find>
       <find>,.</find>
+      <find>parfait</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,7 +109,6 @@
         <option value="$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
         <option value="$PROJECT_DIR$/utils/document-term-matrix.py" />
         <option value="$PROJECT_DIR$/utils/test_corpus_numerical_representation.py" />
-        <option value="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" />
         <option value="$PROJECT_DIR$/utils/tipic_modeller.py" />
         <option value="$PROJECT_DIR$/utils/test_topicModeler.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_topic_modeler.py" />
@@ -115,14 +117,15 @@
         <option value="$PROJECT_DIR$/unit_tests/test_corpus_numerical_representation.py" />
         <option value="$PROJECT_DIR$/unit_tests/test_numerical_corpus.py" />
         <option value="$PROJECT_DIR$/utils/data_cleaner.py" />
+        <option value="$PROJECT_DIR$/unit_tests/test_data_cleaner.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="38" />
-    <option name="width" value="1282" />
-    <option name="height" value="732" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1349" />
+    <option name="y" value="-4" />
+    <option name="width" value="1851" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,33 +145,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="topic-modeling-nutella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topic-modeling-nutella" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topic-modeling-nutella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topic-modeling-nutella" type="462c0819:PsiDirectoryNode" />
-              <item name="unit_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="topic-modeling-nutella" type="b2602c69:ProjectViewProjectNode" />
-              <item name="topic-modeling-nutella" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic-modeling-nutella" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic-modeling-nutella" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic-modeling-nutella" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic-modeling-nutella" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic-modeling-nutella" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic-modeling-nutella" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/unit_tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../env-publicis/bin/python3.5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -188,68 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_data_cleaner.py">
-    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topic-modeling-nutella" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topic-modeling-nutella" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topic-modeling-nutella" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_reformat_results&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Nosetests in test_data_cleaner.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="topic-modeling-nutella" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_data_cleaner.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Nosetests in test_topic_modeler.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text">
+    <configuration default="false" name="Nosetests in test_topic_modeler.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -263,21 +227,151 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_topic_modeler.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in test_data_cleaner.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unit_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests/test_data_cleaner.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in unit_tests" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unit_tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="topic-modeling-nutella" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in unit_tests" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_reformat_results" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in unit_tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_cleaner.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_topic_modeler.py" />
       </list>
     </recent_temporary>
   </component>
@@ -298,29 +392,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 18m 54s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
+    <history-entry file="Nosetests_for_unit_tests_test_data_cleaner_TestDataCleaner_test_remove_all_internet_related_element_in_text - 2017.08.16 at 11h 32m 37s.xml">
+      <configuration name="Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 21m 30s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
+    <history-entry file="Nosetests_for_unit_tests_test_data_cleaner_TestDataCleaner_test_remove_all_internet_related_element_in_text - 2017.08.16 at 11h 33m 17s.xml">
+      <configuration name="Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_evaluate_on_validation_corpus - 2017.08.13 at 13h 21m 38s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_evaluate_on_validation_corpus" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 10m 40s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 11m 25s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 11m 58s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_topic_modeler_TestTopicModeler_test_get_most_important_topics_and_keywords - 2017.08.13 at 13h 12m 30s.xml">
-      <configuration name="Nosetests for test_topic_modeler.TestTopicModeler.test_get_most_important_topics_and_keywords" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_data_cleaner_py - 2017.08.13 at 13h 52m 27s.xml">
-      <configuration name="Nosetests in test_data_cleaner.py" configurationId="tests" />
+    <history-entry file="Nosetests_for_unit_tests_test_data_cleaner_TestDataCleaner_test_remove_all_internet_related_element_in_text - 2017.08.16 at 11h 33m 44s.xml">
+      <configuration name="Nosetests for unit_tests.test_data_cleaner.TestDataCleaner.test_remove_all_internet_related_element_in_text" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_test_data_cleaner_py - 2017.08.13 at 14h 02m 55s.xml">
       <configuration name="Nosetests in test_data_cleaner.py" configurationId="tests" />
@@ -328,28 +407,43 @@
     <history-entry file="Nosetests_in_test_topic_modeler_py - 2017.08.13 at 13h 13m 40s.xml">
       <configuration name="Nosetests in test_topic_modeler.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_unit_tests - 2017.08.16 at 10h 08m 39s.xml">
+      <configuration name="Nosetests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_unit_tests - 2017.08.16 at 10h 08m 55s.xml">
+      <configuration name="Nosetests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_unit_tests - 2017.08.16 at 10h 10m 04s.xml">
+      <configuration name="Nosetests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_unit_tests - 2017.08.16 at 10h 13m 10s.xml">
+      <configuration name="Nosetests in unit_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_unit_tests - 2017.08.16 at 10h 16m 09s.xml">
+      <configuration name="Nosetests in unit_tests" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="1349" y="-4" width="1851" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2767102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27660725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2957958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="1349" y="24" width="1851" height="1056" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="65" y="24" width="1301" height="744" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2957958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -371,38 +465,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py">
+    <entry file="file://$PROJECT_DIR$/utils/numerical_corpus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="300">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py">
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_numerical_corpus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="80">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
     <entry file="file://$PROJECT_DIR$/unit_tests/example_data/raw_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-540">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
     <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="686">
@@ -433,35 +553,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner_old.py" />
     <entry file="file://$PROJECT_DIR$/unit_tests/example_data/raw_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-261">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,30 +573,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unit_tests/test_numerical_corpus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_topic_modeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="885">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -507,16 +595,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/numerical_corpus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="300">
           <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unit_tests/test_data_cleaner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utils/data_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="40" column="46" lean-forward="false" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        <state relative-caret-position="285">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

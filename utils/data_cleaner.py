@@ -16,6 +16,7 @@ class DataCleaner:
         self.stop_lemmas = ['être', 'avoir', 'suivre|être']
         self.begin_unicode_index_emojis = ord("\U0001F300")
         self.end_unicode_index_emojis = ord("\U0001FFFF")
+        self.tree_tagger_directory = '/home/thales/Documents/camille/publicis/tree_tagger'
 
     @property
     def list_internet_related_markers(self):
@@ -98,7 +99,7 @@ class DataCleaner:
         return important_lemmas
 
     def get_tree_tags_of_textual_data(self, textual_data):
-        tree_tagger = treetaggerwrapper.TreeTagger(TAGLANG=self.language[:2])
+        tree_tagger = treetaggerwrapper.TreeTagger(TAGLANG=self.language[:2], TAGDIR=self.tree_tagger_directory)
         tags = tree_tagger.tag_text(textual_data)
         return treetaggerwrapper.make_tags(tags)
 
